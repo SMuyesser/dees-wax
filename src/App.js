@@ -10,20 +10,20 @@ class App extends Component {
       <div>
       <header>
         <nav className="navbar navbar-expand-md fixed-top">
-          <a className="navbar-brand" href="#"><img className="logo" src={logo} /></a>
-          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <a className="navbar-brand" href=""><img className="logo" src={logo} alt="logo" /></a>
+          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"><img className="menu-icon" src={menu} alt="menu icon" /></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarCollapse">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item active">
-                <a className="nav-link" href="#">Home<span className="sr-only">(current)</span></a>
+                <a className="nav-link" href="home">Home<span className="sr-only">(current)</span></a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Shop</a>
+                <a className="nav-link" href="shop">Shop</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Contact</a>
+                <a className="nav-link" href="contact">Contact</a>
               </li>
             </ul>
             <form class="form-inline mt-2 mt-md-0">
@@ -38,8 +38,8 @@ class App extends Component {
 
         <div id="myCarousel" className="carousel slide" data-ride="carousel">
           <ol className="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="myCarousel" data-slide-to="0" className="active"></li>
+            <li data-target="myCarousel" data-slide-to="1"></li>
           </ol>
           <div className="carousel-inner">
             <div className="carousel-item active">
@@ -48,7 +48,7 @@ class App extends Component {
                 <div className="carousel-caption">
                   <h1>Dee's Wax</h1>
                   <p>The sweet way to make that fuzz dissapp-HAIR.</p>
-                  <p><a className="btn btn-lg btn-outline-dark" href="#" role="button">Learn more</a></p>
+                  <p><a className="btn btn-lg btn-outline-dark" href="" role="button">Learn more</a></p>
                 </div>
               </div>            
             </div>
@@ -58,17 +58,17 @@ class App extends Component {
                 <div className="carousel-caption">
                   <h1>Sugar Wax</h1>
                   <p>Leaving you silky smooth after that hair is removed.</p>
-                  <p><a className="btn btn-lg btn-outline-dark" href="#" role="button">Learn more</a></p>
+                  <p><a className="btn btn-lg btn-outline-dark" href="" role="button">Learn more</a></p>
                 </div>
               </div>
             </div>
 
           </div>
-          <a className="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <a className="carousel-control-prev" href="myCarousel" role="button" data-slide="prev">
             <span className="carousel-control-prev-icon" aria-hidden="true"></span>
             <span className="sr-only">Previous</span>
           </a>
-          <a className="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <a className="carousel-control-next" href="myCarousel" role="button" data-slide="next">
             <span className="carousel-control-next-icon" aria-hidden="true"></span>
             <span className="sr-only">Next</span>
           </a>
@@ -84,22 +84,22 @@ class App extends Component {
 {/*          <!-- Three columns of text below the carousel -->
 */}          <div className="row">
             <div className="col-lg-4">
-              <img className="rounded-circle" src={logo} alt="Generic placeholder image" width="140" height="140" />
+              <img className="rounded-circle" src={logo} alt="Generic placeholder" width="140" height="140" />
               <h2>Wax</h2>
               <p>Wax wax wax wax wax wax wax wax wax wax wax wax wax wax wax wax wax wax wax wax</p>
-              <p><a className="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+              <p><a className="btn btn-secondary" href="" role="button">View details &raquo;</a></p>
             </div>{/*<!-- /.col-lg-4 -->*/}
             <div className="col-lg-4">
-              <img className="rounded-circle" src={logo} alt="Generic placeholder image" width="140" height="140" />
+              <img className="rounded-circle" src={logo} alt="Generic placeholder" width="140" height="140" />
               <h2>Sugar</h2>
               <p>Sugar sugar sugar sugar sugar sugar sugar sugar sugar sugar sugar sugar sugar sugar sugar sugar </p>
-              <p><a className="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+              <p><a className="btn btn-secondary" href="" role="button">View details &raquo;</a></p>
             </div>{/*<!-- /.col-lg-4 -->*/}
             <div className="col-lg-4">
-              <img className="rounded-circle" src={logo} alt="Generic placeholder image" width="140" height="140" />
+              <img className="rounded-circle" src={logo} alt="Generic placeholder" width="140" height="140" />
               <h2>Hair</h2>
               <p>Hair hair hair hair hair hair hair hair hair hair hair hair hair hair hair hair hair hair hair</p>
-              <p><a className="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+              <p><a className="btn btn-secondary" href="" role="button">View details &raquo;</a></p>
             </div>{/*<!-- /.col-lg-4 -->*/}
           </div>{/*<!-- /.row -->*/}
 
@@ -114,7 +114,7 @@ class App extends Component {
               <p className="lead">Roses are red. Violets are blue. What's better than prickly legs? Legs that are smooth.</p>
             </div>
             <div className="col-md-5">
-              <img className="featurette-image img-fluid mx-auto featurette-border-radius" src={leftDrip} alt="Generic placeholder image" />
+              <img className="featurette-image img-fluid mx-auto featurette-border-radius" src={leftDrip} alt="Generic placeholder" />
             </div>
           </div>
 
@@ -126,7 +126,7 @@ class App extends Component {
             <p class="lead">Bubblegum bubblegum in a dish.  Silky smoothness is your wish?  That we can accomplish.</p>
           </div>
           <div class="col-md-5 order-md-1">
-            <img class="featurette-image img-fluid mx-auto featurette-border-radius" src={centerDrip} alt="Generic placeholder image" />
+            <img class="featurette-image img-fluid mx-auto featurette-border-radius" src={centerDrip} alt="Generic placeholder" />
           </div>
         </div>
 
@@ -134,8 +134,8 @@ class App extends Component {
 
      {/* FOOTER  */}
         <footer className="container">
-          <p className="float-right"><a href="#">Back to top</a></p>
-          <p>&copy; 2017-2018 Dee's Wax &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+          <p className="float-right"><a href="">Back to top</a></p>
+          <p>&copy; 2017-2018 Dee's Wax &middot; <a href="">Privacy</a> &middot; <a href="">Terms</a></p>
         </footer>
         </div>{/*<!-- /.container -->*/}
 
