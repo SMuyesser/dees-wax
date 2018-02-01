@@ -1,38 +1,16 @@
 import React, { Component } from 'react';
+import Header from './components/header.jsx';
+
 const logo = require('./images/FullSizeRender.jpg');
-const centerDrip = require('./images/pexels-photo-315420.jpeg');
-const leftDrip = require('./images/pexels-photo-714522.jpeg');
-const menu = require('./images/menu-black.png');
+const centerDrip = require('./images/cropped-center-drip.jpg');
+const leftDrip = require('./images/cropped-left-drip.jpg');
+
 
 class App extends Component {
   render() {
     return (
-      <div>
-      <header>
-        <nav className="navbar navbar-expand-md fixed-top">
-          <a className="navbar-brand" href=""><img className="logo" src={logo} alt="logo" /></a>
-          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"><img className="menu-icon" src={menu} alt="menu icon" /></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarCollapse">
-            <ul className="navbar-nav mr-auto">
-              <li className="nav-item active">
-                <a className="nav-link" href="home">Home<span className="sr-only">(current)</span></a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="shop">Shop</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="contact">Contact</a>
-              </li>
-            </ul>
-            <form class="form-inline mt-2 mt-md-0">
-              <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search"/>
-              <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
-            </form>          
-          </div>
-        </nav>
-      </header>
+      <div id='root'>
+      <Header />
 
       <main role="main">
 
@@ -74,15 +52,9 @@ class App extends Component {
           </a>
         </div>
 
-
-       {/* <!-- Marketing messaging and featurettes
-        ================================================== -->
-        <!-- Wrap the rest of the page in another container to center all the content. -->
-*/}
         <div className="container marketing">
 
-{/*          <!-- Three columns of text below the carousel -->
-*/}          <div className="row">
+          <div className="row">
             <div className="col-lg-4">
               <img className="rounded-circle" src={logo} alt="Generic placeholder" width="140" height="140" />
               <h2>Wax</h2>
@@ -102,9 +74,6 @@ class App extends Component {
               <p><a className="btn btn-secondary" href="" role="button">View details &raquo;</a></p>
             </div>{/*<!-- /.col-lg-4 -->*/}
           </div>{/*<!-- /.row -->*/}
-
-
-        {/*  <!-- START THE FEATURETTES -->*/}
 
           <hr className="featurette-divider"/>
 
@@ -132,7 +101,6 @@ class App extends Component {
 
         <hr class="featurette-divider"/>
 
-     {/* FOOTER  */}
         <footer className="container">
           <p className="float-right"><a href="">Back to top</a></p>
           <p>&copy; 2017-2018 Dee's Wax &middot; <a href="">Privacy</a> &middot; <a href="">Terms</a></p>
