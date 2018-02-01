@@ -114,7 +114,7 @@ class App extends Component {
               <p className="lead">Roses are red. Violets are blue. What's better than prickly legs? Legs that are smooth.</p>
             </div>
             <div className="col-md-5">
-              <img className="featurette-image img-fluid mx-auto" src={leftDrip} alt="Generic placeholder image" />
+              <img className="featurette-image img-fluid mx-auto featurette-border-radius" src={leftDrip} alt="Generic placeholder image" />
             </div>
           </div>
 
@@ -126,7 +126,7 @@ class App extends Component {
             <p class="lead">Bubblegum bubblegum in a dish.  Silky smoothness is your wish?  That we can accomplish.</p>
           </div>
           <div class="col-md-5 order-md-1">
-            <img class="featurette-image img-fluid mx-auto" src={centerDrip} alt="Generic placeholder image" />
+            <img class="featurette-image img-fluid mx-auto featurette-border-radius" src={centerDrip} alt="Generic placeholder image" />
           </div>
         </div>
 
@@ -135,7 +135,7 @@ class App extends Component {
      {/* FOOTER  */}
         <footer className="container">
           <p className="float-right"><a href="#">Back to top</a></p>
-          <p>&copy; 2017-2018 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+          <p>&copy; 2017-2018 Dee's Wax &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
         </footer>
         </div>{/*<!-- /.container -->*/}
 

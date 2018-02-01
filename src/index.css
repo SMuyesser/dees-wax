@@ -19,12 +19,17 @@ img.menu-icon {
 
 nav.navbar {
   background-color: #f8a3aa;
-  box-shadow: 6px 0px 10px #676767;
+  box-shadow: 0px 5px 8px #676767;
 }
 
 nav ul li a.nav-link {
   color: white;
   text-decoration: none;
+}
+
+img.featurette-border-radius {
+  border-radius: 5px;
+  box-shadow: 0px 5px 8px #676767;
 }
 
 
