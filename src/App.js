@@ -13,6 +13,7 @@ const waxing = require('./images/IMG958330.jpg');
 class App extends Component {
   render() {
     return (
+
       <div id='root'>
       <Header />
 
@@ -30,7 +31,7 @@ class App extends Component {
                 <div className="carousel-caption">
                   <h1>Dee's Wax</h1>
                   <p>The sweet way to make that fuzz dissapp-HAIR.</p>
-                  <p><a className="btn btn-lg btn-outline-dark" href="" role="button">Learn more</a></p>
+                  <p><a className="btn btn-lg btn-outline-dark" href="0" role="button">Learn more</a></p>
                 </div>
               </div>            
             </div>
@@ -40,7 +41,7 @@ class App extends Component {
                 <div className="carousel-caption">
                   <h1>Sugar Wax</h1>
                   <p>Leaving you silky smooth after that hair is removed.</p>
-                  <p><a className="btn btn-lg btn-outline-dark" href="" role="button">Learn more</a></p>
+                  <p><a className="btn btn-lg btn-outline-dark" href="1" role="button">Learn more</a></p>
                 </div>
               </div>
             </div>
