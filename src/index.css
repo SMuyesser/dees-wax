@@ -23,13 +23,17 @@ nav.navbar {
 }
 
 nav ul li a.nav-link {
-  color: white;
+  color: #2D2D2D;
   text-decoration: none;
 }
 
 img.featurette-border-radius {
   border-radius: 5px;
   box-shadow: 0px 5px 8px #676767;
+}
+
+div.carousel-caption {
+  color: #2D2D2D;
 }
 
 

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 const logo = require('./images/FullSizeRender.jpg');
 const centerDrip = require('./images/pexels-photo-315420.jpeg');
 const leftDrip = require('./images/pexels-photo-714522.jpeg');
-const menu = require('./images/menu-white.png');
+const menu = require('./images/menu-black.png');
 
 class App extends Component {
   render() {
@@ -28,7 +28,7 @@ class App extends Component {
             </ul>
             <form class="form-inline mt-2 mt-md-0">
               <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search"/>
-              <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+              <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
             </form>          
           </div>
         </nav>
@@ -48,7 +48,7 @@ class App extends Component {
                 <div className="carousel-caption">
                   <h1>Dee's Wax</h1>
                   <p>The sweet way to make that fuzz dissapp-HAIR.</p>
-                  <p><a className="btn btn-lg btn-outline-light" href="#" role="button">Learn more</a></p>
+                  <p><a className="btn btn-lg btn-outline-dark" href="#" role="button">Learn more</a></p>
                 </div>
               </div>            
             </div>
@@ -58,7 +58,7 @@ class App extends Component {
                 <div className="carousel-caption">
                   <h1>Sugar Wax</h1>
                   <p>Leaving you silky smooth after that hair is removed.</p>
-                  <p><a className="btn btn-lg btn-outline-light" href="#" role="button">Learn more</a></p>
+                  <p><a className="btn btn-lg btn-outline-dark" href="#" role="button">Learn more</a></p>
                 </div>
               </div>
             </div>
