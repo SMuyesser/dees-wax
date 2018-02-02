@@ -1,6 +1,5 @@
 import React from 'react';
-import './header.css';
-
+import './carousel.css';
 const centerDrip = require('../images/cropped-center-drip.jpg');
 const leftDrip = require('../images/cropped-left-drip.jpg');
 const collage = require('../images/collage.jpg');
