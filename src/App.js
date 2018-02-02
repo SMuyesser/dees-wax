@@ -3,6 +3,7 @@ import Header from './components/header.jsx';
 
 const centerDrip = require('./images/cropped-center-drip.jpg');
 const leftDrip = require('./images/cropped-left-drip.jpg');
+const collage = require('./images/collage.jpg');
 const potDrip = require('./images/IMG957811.jpg');
 const sugar = require('./images/IMG953797.jpg');
 const stubble = require('./images/IMG953193.jpg');
@@ -23,10 +24,14 @@ class App extends Component {
           <ol className="carousel-indicators">
             <li data-target="myCarousel" data-slide-to="0" className="active"></li>
             <li data-target="myCarousel" data-slide-to="1"></li>
+            <li data-target="myCarousel" data-slide-to="2"></li>
           </ol>
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <img className="first-slide" src={centerDrip} alt="First slide" />
+              <img className="first-slide mx-auto d-block" src={collage} alt="First slide" />           
+            </div>
+            <div className="carousel-item">
+              <img className="second-slide mx-auto d-block" src={centerDrip} alt="First slide" />
               <div className="container">
                 <div className="carousel-caption">
                   <h1>Dee's Wax</h1>
@@ -36,7 +41,7 @@ class App extends Component {
               </div>            
             </div>
             <div className="carousel-item">
-              <img className="second-slide" src={leftDrip} alt="Second slide" />
+              <img className="third-slide mx-auto d-block" src={leftDrip} alt="Second slide" />
               <div className="container">
                 <div className="carousel-caption">
                   <h1>Sugar Wax</h1>
@@ -45,7 +50,6 @@ class App extends Component {
                 </div>
               </div>
             </div>
-
           </div>
           <a className="carousel-control-prev" href="myCarousel" role="button" data-slide="prev">
             <span className="carousel-control-prev-icon" aria-hidden="true"></span>
